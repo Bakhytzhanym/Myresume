@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+section {
+  position: relative;
+  margin: 0% 15% 0% 15%;
+  padding: 0 10% 0 10%;
+}
+img {
+  width: 20%;
+  border-radius: 100%;
+  position: absolute;
+  float: left;
+  margin-top: 5%;
+}
+.cv__branch {
+  width: 40%;
+  text-align: center;
+  left: 20%;
+  margin-left: 40%;
+}
+.cv__data {
+  width: 50%;
+  margin-left: 30%;
+  padding: auto;
+}
+.cv__data {
+  padding: 5px;
+}
+.left-side {
+  font-weight: bold;
+}
+.right-side {
+  color: rgb(90, 88, 88);
+}
