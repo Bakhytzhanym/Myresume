@@ -1,11 +1,14 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #98e7e7;
+  color: #0a3369fd;
 }
 section {
   position: relative;
   margin: 0% 15% 0% 15%;
   padding: 0 10% 0 10%;
+  border-bottom: 2px solid #0a3369fd;
 }
 img {
   width: 20%;
@@ -13,9 +16,10 @@ img {
   position: absolute;
   float: left;
   margin-top: 5%;
+  display: inline-block;
 }
 .cv__branch {
-  width: 40%;
+  width: 60%;
   text-align: center;
   left: 20%;
   margin-left: 40%;
@@ -23,14 +27,26 @@ img {
 .cv__data {
   width: 50%;
   margin-left: 30%;
-  padding: auto;
-}
-.cv__data {
+  position: relative;
+  margin-right: 0%;
   padding: 5px;
 }
+
 .left-side {
   font-weight: bold;
 }
 .right-side {
-  color: rgb(90, 88, 88);
+  color: rgb(56, 56, 56);
+  width: 400%;
+}
+.education {
+  margin-left: 0;
+  text-align: justify;
+  display: inline-block;
+}
+.edu {
+  margin-left: 0;
+  text-align: justify;
+  display: inline-block;
+  width: 120%;
 }
